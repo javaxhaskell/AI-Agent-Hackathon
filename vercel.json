@@ -6,7 +6,7 @@
       "src": "api/index.py",
       "use": "@vercel/python",
       "config": {
-        "includeFiles": "{console,precedent,precedent_memory}/**"
+        "includeFiles": ["console/**", "precedent/**", "precedent_memory/**"]
       }
     }
   ],
